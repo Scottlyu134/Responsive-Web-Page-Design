@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .btn {
+            border: none;
+            color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .success {
+            background-color: #04AA6D;
+        } /* Green */
+        .success:hover {
+            background-color: #46a049;
+        }
+
+        .info {
+            background-color: #2196F3;
+        } /* Blue */
+        .info:hover {
+            background: #0b7dda;
+        }
+
+        .warning {
+            background-color: #ff9800;
+        } /* Orange */
+        .warning:hover {
+            background: #e68a00;
+        }
+
+        .danger {
+            background-color: #f44336;
+        } /* Red */
+        .danger:hover {
+            background: #da190b;
+        }
+
+        .default {
+            background-color: #e7e7e7;
+            color: black;
+        } /* Gray */
+        .default:hover {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Introduction</a>
+        <a href="section1.html">Relationship</a>
+
+        <!-- Active link pointing to the section2.html page -->
+        <a class="active" href="section2.html">Warning</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h1>Alert Buttons</h1>
+        <button class="btn success">Success</button>
+        <button class="btn info">Info</button>
+        <button class="btn warning">Warning</button>
+        <button class="btn danger">Danger</button>
+        <button class="btn default">Default</button>
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
